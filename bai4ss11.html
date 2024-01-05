@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .mainbox{
+            width: 60%;
+            background-color: antiquewhite;
+            margin: auto;
+            
+        }
+        header{
+            display: flex;
+            width: 100%;
+            justify-content: end;
+            gap:20px;
+            padding-right: 50px; 
+        }
+        .side-bar{
+            font-size: medium;
+            font-weight: 700;
+        }
+        article{
+            display: flex;
+        }
+        .main-content-1{
+            width: 56%;
+            padding-left: 10%;
+            padding-top:100px;
+            padding-bottom: 20px;
+            display: flex; 
+            flex-direction: column;
+            gap: 20px;       
+        }
+        .text{
+            font-size:xx-large;
+            font-weight: 900;
+
+        }
+        #text{
+            font-weight: 500;
+            color:gray;
+        }
+        .button{
+            width: 150px;
+            background-color: crimson;
+            border-radius: 5px;
+            height:40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            font-weight: 700;
+            font-size: medium;
+        }
+        .main-content-2{
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            width:44%;
+            position: relative;
+        }
+        img{
+            width:150px ;
+            height:150px;
+            border-radius: 70%;
+            z-index: 1;
+        }
+        .circle{
+            width:150px ;
+            height:150px;
+            background-color: cornflowerblue;
+            border-radius: 70%;
+            position:absolute;
+            top:32%;
+            right: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainbox">
+        <header>
+            <div class="side-bar">Works</div>
+            <div class="side-bar">Blog</div>
+            <div class="side-bar">Contact</div>  
+        </header>
+        <article>
+           <div class="main-content-1">
+            <div>
+                <p class="text">Hi, I am John</p>
+                <p class="text">Creative Technologist</p>
+            </div>
+            <div id="text">
+                Steve Paul Jobs ( 24 tháng 2 năm 1955-5 tháng 10 năm 2011) là doanh nhân và nhà sáng chế người Mỹ. Ông là đồng sáng lập viên,[10] chủ tịch, và cựu tổng giám đốc điều hành của hãng Apple
+            </div>
+            <div class="button">Dowload Resume</div>
+           </div>
+           <div class="main-content-2">
+            <div class="circle"></div>
+            <img src="https://vnn-imgs-a1.vgcloud.vn/znews-photo.zadn.vn/w860/Uploaded/vnatjs/2021_09_26/5176149_cover_stevejobs.jpg" alt="">
+           </div>
+        </article>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Noto+Sans:ital,wght@0,600;0,700;1,400;1,500&display=swap');
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            height:50px;
+            background-color: gray;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;        
+        }
+        .content-1{        
+            font-family: 'Ms Madi', cursive;
+            font-weight: 900;
+        }
+        .content-3{
+            width: 80px;
+            height:30px;
+            display: flex;
+            background-color: cornflowerblue;
+            border-radius: 5px;
+            justify-content: center;
+            align-items: center;
+            color:white;
+        }
+        .content-2{
+            width: 800px;
+            display: flex;
+           justify-content: space-between;   
+        }
+        .part-1{
+            font-weight: 900;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="content-1">Sport News</div>
+        <div class="content-2">
+            <div class="part part-1">Home</div>
+            <div class="part">Category</div>
+            <div class="part">Trending News</div>
+            <div class="part">Recent News</div>
+            <div class="part">Club Ranking</div>
+            <div class="part">Sport Article</div>
+        </div>
+        <div class="content-3">
+            <ion-icon style="margin-right:5px ;" name="search-outline"></ion-icon>
+            <span>Search</span>
+        </div>
+    </header>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

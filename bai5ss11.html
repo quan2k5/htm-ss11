@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .mainbox{
+            box-sizing: border-box;
+            width:80%;
+            margin:auto;
+           padding-left: 8%;
+           padding-right: 8%;
+           padding-bottom: 10%;
+            background-color:grey;
+            display:flex;
+            flex-direction: column;
+            gap:0px;
+        }
+        article{
+            display:flex;
+            flex-direction: column;
+            gap:20px;
+        }
+        header{
+            font-size: large;
+            font-weight: 500;
+        }
+        .content{
+            height: 130px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid white;
+            display:flex;
+        }
+        img{
+            width:200px;
+            height:120px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        .main-content{
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+            width: 70%;
+            height: 90%;      
+        }
+        .side-bar{
+            display: flex;
+        }
+        .blue{
+            width:50px;
+            height: 20px;
+            background-color: blue;
+            display: flex;
+            border-radius: 20px;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            margin-right: 15px;
+        }
+        .title{
+            font-size: larger;
+            font-weight: 600;
+        }
+        .platform{
+            padding-top: 100px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .icon{
+            width: 40%;
+            height:40px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        ion-icon{
+            color:black;
+            font-size: 25px;
+        }
+        .sub-text{
+            width: 35%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainbox">
+       <article>
+        <header>Feature works</header>
+       <div class="content">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Tupolev_Tu-160_RF-94109.jpg" alt="">
+        <div class="main-content">
+            <p class="title">Designing fighter </p>
+            <div class="side-bar">
+                <div class="blue">2020</div>
+                <span>Fighter</span>
+            </div>
+            <div>
+                Tupolev Tu-160, biệt danh "Thiên Nga Trắng" [3] là một máy bay ném bom chiến lược hạng nặng, siêu thanh với thiết kế cánh cụp-cánh xòe, được thiết kế bởi Liên bang Xô viết. 
+            </div>
+        </div>
+       </div>
+       <div class="content">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/T-90A_MBT_photo009.jpg/300px-T-90A_MBT_photo009.jpg" alt="">
+        <div class="main-content">
+            <p class="title">Designing tank </p>
+            <div class="side-bar">
+                <div class="blue">2018</div>
+                <span>Tank</span>
+            </div>
+            <div>
+                T-90 là một trong những loại xe tăng chiến đấu chủ lực hiện đại trong biên chế của quân đội Liên bang Nga. Nó được sản xuất với số lượng ít vào năm 1993 và chính thức phục vụ trong quân đội Nga năm 1995.
+            </div>
+        </div>
+       </div>
+       <div class="content">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Caspian_Frigate_Dagestan.jpg/250px-Caspian_Frigate_Dagestan.jpg" alt="">
+        <div class="main-content">
+            <p class="title">Designing Ship </p>
+            <div class="side-bar">
+                <div class="blue">2009</div>
+                <span>Ship</span>
+            </div>
+            <div>
+                Lớp tàu hộ vệ tên lửa Gepard (tiếng Nga: Гепард), định danh của Nga là Đề án 11661, là lớp tàu chiến được thiết kế nhằm thay thế cho các tàu corvette lớp Koni, Grisha, và Parchim trước đây.
+            </div>
+        </div>
+       </div>
+       </article>
+       <div class="platform">
+        <div class="icon">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-tiktok"></ion-icon>
+        </div>
+        <div class="sub-text">
+            Coppyright @2020 All right this reserved
+
+        </div>
+       </div>     
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

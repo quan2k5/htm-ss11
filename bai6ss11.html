@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .mainbox{
+            width: 80%;
+            height: 400px;
+            margin: auto;
+            padding: 10px;
+            position: relative;
+            background-color:cornflowerblue;
+        }
+        img{
+            width:100%;
+            height:300px;
+        }
+        .title{
+            width:100px;
+            height: 30px;
+            border: 1px solid white;
+            border-radius: 5px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            color:white;
+            position:absolute;
+            top: 20px;
+            left:20px;
+        }
+        .content{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            position: absolute;
+            top:150px;
+            left:20px;
+        }
+        .text{
+            width: 60%;
+            font-size:x-large;
+            font-weight: 900;
+            color: white;
+        }
+        .normal-text{
+            width:55% ;
+            color: white;
+        }
+        .side-bar{
+            width: 40%;
+            height:70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding:5px;
+            position: absolute;
+            top:320px;
+            right:5px;
+        }
+        .bar{
+            width:40px;
+            height:40px;
+            background-color:black;
+            border-radius: 60%;
+            opacity: 0.4;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+
+        }
+        .bar-1{
+            border-radius: 0px;
+
+        }
+        .bar:hover{
+            opacity:1;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="mainbox">
+        <img src="https://png.pngtree.com/thumb_back/fw800/background/20230616/pngtree-mobile-screen-showing-3d-football-field-with-stadium-lights-and-room-image_3608912.jpg" alt="">
+        <div class="title">Football</div>
+        <div class="content">
+            <div class="content-1">
+                <div class="normal-text">Matxcova-Moscow-04 September 2023</div>
+                <div class="text">
+                    The 2022 UEFA Champions League final was the final match of the 2021–22 UEFA Champions League.
+                </div>
+            </div>
+            <div class="content-2 normal-text">
+                The UEFA Champions League ( mostly abbreviated worldwide as the UCL) is an annual club association football competition
+            </div>
+        </div>
+        <div class="side-bar">
+            <div class=" bar bar-1">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="bar">1</div>
+            <div class="bar">2</div>
+            <div class="bar">3</div>
+            <div class="bar">4</div>
+            <div class="bar bar-1">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>         
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>  
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
